@@ -15,7 +15,8 @@
             "script": "./local_filters/block_gen/index.js",
             "name": "block_gen"
           },
-          { "url": "github.com/Hatchibombotar/useful-regolith-filters//templater" }
+          { "url": "github.com/Hatchibombotar/useful-regolith-filters//templater" },
+          { "url": "github.com/Hatchibombotar/useful-regolith-filters//link_manifests" }
         ],
         "export": {
           "target": "development"
@@ -31,7 +32,8 @@
             "name": "block_gen"
           },
           { "url": "github.com/Hatchibombotar/useful-regolith-filters//templater" },
-          { "url": "github.com/cda94581/regolith-filters/export" }
+          { "url": "github.com/cda94581/regolith-filters/export" },
+          { "url": "github.com/Hatchibombotar/useful-regolith-filters//link_manifests" }
         ],
         "export": {
           "target": "local"
