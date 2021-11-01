@@ -1,6 +1,6 @@
 # Fake blocks addon
 
-## [Download]()
+## [Download](https://github.com/Hatchibombotar/fake-blocks-addon/releases/download/v1.0.0/fake_blocks.mcaddon)
 
 An addon for Minecraft: Bedrock Edition that allows you to create pretend blocks that you can walk through.
 
