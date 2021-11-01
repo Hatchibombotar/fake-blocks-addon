@@ -12,6 +12,7 @@ _A secret base_
 To use it combine any solid block with the empty fake block in the crafting grid.
 
 ![Empty fake block crafting recipe](./.github/assets/recipe.png)
+
 _Empty fake block crafting recipe_
 
 ## Addon Info
