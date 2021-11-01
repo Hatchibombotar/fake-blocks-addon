@@ -1,0 +1,58 @@
+{
+    "num_mip_levels" : 4,
+    "padding" : 8,
+    "resource_pack_name" : "fake_blocks",
+    "texture_data" : {
+        "empty_fake_block": {
+            "textures": "textures/blocks/empty_fake_block"
+        },
+        "glass_white": {
+            "texture": "textures/blocks/glass_white"
+        },
+        "glass_orange": {
+            "texture": "textures/blocks/glass_orange"
+        },
+        "glass_magenta": {
+            "texture": "textures/blocks/glass_magenta"
+        },
+        "glass_light_blue": {
+            "texture": "textures/blocks/glass_light_blue"
+        },
+        "glass_yellow": {
+            "texture": "textures/blocks/glass_yellow"
+        },
+        "glass_lime": {
+            "texture": "textures/blocks/glass_lime"
+        },
+        "glass_pink": {
+            "texture": "textures/blocks/glass_pink"
+        },
+        "glass_gray": {
+            "texture": "textures/blocks/glass_gray"
+        },
+        "glass_silver": {
+            "texture": "textures/blocks/glass_silver"
+        },
+        "glass_cyan": {
+            "texture": "textures/blocks/glass_cyan"
+        },
+        "glass_purple": {
+            "texture": "textures/blocks/glass_purple"
+        },
+        "glass_blue": {
+            "texture": "textures/blocks/glass_blue"
+        },
+        "glass_brown": {
+            "texture": "textures/blocks/glass_brown"
+        },
+        "glass_green": {
+            "texture": "textures/blocks/glass_green"
+        },
+        "glass_red": {
+            "texture": "textures/blocks/glass_red"
+        },
+        "glass_black": {
+            "texture": "textures/blocks/glass_black"
+        }
+    }
+}

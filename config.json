@@ -1,0 +1,43 @@
+{
+  "name": "fake_blocks",
+  "author": "Hatchibombotar",
+  "packs": {
+    "behaviorPack": "./packs/BP",
+    "resourcePack": "./packs/RP"
+  },
+  "regolith": {
+    "profiles": {
+      "dev": {
+        "unsafe": false,
+        "filters": [
+          {
+            "runWith": "nodejs",
+            "script": "./local_filters/block_gen/index.js",
+            "name": "block_gen"
+          },
+          { "url": "github.com/Hatchibombotar/useful-regolith-filters//templater" }
+        ],
+        "export": {
+          "target": "development"
+        },
+        "dataPath": "./packs/data"
+      },
+      "build": {
+        "unsafe": false,
+        "filters": [
+          {
+            "runWith": "nodejs",
+            "script": "./local_filters/block_gen/index.js",
+            "name": "block_gen"
+          },
+          { "url": "github.com/Hatchibombotar/useful-regolith-filters//templater" },
+          { "url": "github.com/cda94581/regolith-filters/export" }
+        ],
+        "export": {
+          "target": "local"
+        },
+        "dataPath": "./packs/data"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "block_gen",
+  "version": "1.0.0",
+  "description": "Generates the block in my addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hatchibombotar",
+  "license": "MIT"
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Fake Blocks",
+        "description": "By Hatchibombotar",
+        "uuid": "362ea1e6-af6d-492c-921a-5448167ea2c7",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "7234b630-8932-4dab-8f12-b65ada3c7149",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}
