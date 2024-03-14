@@ -1,0 +1,137 @@
+
+
+tile.black_concrete.name=Black Concrete	#
+tile.red_concrete.name=Red Concrete	#
+tile.green_concrete.name=Green Concrete	#
+tile.brown_concrete.name=Brown Concrete	#
+tile.blue_concrete.name=Blue Concrete	#
+tile.purple_concrete.name=Purple Concrete	#
+tile.cyan_concrete.name=Cyan Concrete	#
+tile.light_gray_concrete.name=Light Grey Concrete	#
+tile.gray_concrete.name=Grey Concrete	#
+tile.pink_concrete.name=Pink Concrete	#
+tile.lime_concrete.name=Lime Concrete	#
+tile.yellow_concrete.name=Yellow Concrete	#
+tile.light_blue_concrete.name=Light Blue Concrete	#
+tile.magenta_concrete.name=Magenta Concrete	#
+tile.orange_concrete.name=Orange Concrete	#
+tile.white_concrete.name=White Concrete	#
+
+tile.black_wool.name=Black Wool	#
+tile.blue_wool.name=Blue Wool	#
+tile.brown_wool.name=Brown Wool	#
+tile.cyan_wool.name=Cyan Wool	#
+tile.gray_wool.name=Grey Wool	#
+tile.green_wool.name=Green Wool	#
+tile.light_blue_wool.name=Light Blue Wool	#
+tile.lime_wool.name=Lime Wool	#
+tile.magenta_wool.name=Magenta Wool	#
+tile.orange_wool.name=Orange Wool	#
+tile.pink_wool.name=Pink Wool	#
+tile.purple_wool.name=Purple Wool	#
+tile.red_wool.name=Red Wool	#
+tile.light_gray_wool.name=Light Grey Wool	#
+tile.white_wool.name=White Wool	#
+tile.yellow_wool.name=Yellow Wool	#
+
+tile.acacia_log.name=Acacia Log	#
+tile.dark_oak_log.name=Dark Oak Log	#
+tile.birch_log.name=Birch Log	#
+tile.jungle_log.name=Jungle Log	#
+tile.oak_log.name=Oak Log	#
+tile.spruce_log.name=Spruce Log	#
+
+tile.black_concrete_powder.name=Black Concrete Powder	#
+tile.red_concrete_powder.name=Red Concrete Powder	#
+tile.green_concrete_powder.name=Green Concrete Powder	#
+tile.brown_concrete_powder.name=Brown Concrete Powder	#
+tile.blue_concrete_powder.name=Blue Concrete Powder	#
+tile.purple_concrete_powder.name=Purple Concrete Powder	#
+tile.cyan_concrete_powder.name=Cyan Concrete Powder	#
+tile.light_gray_concrete_powder.name=Light Grey Concrete Powder	#
+tile.gray_concrete_powder.name=Grey Concrete Powder	#
+tile.pink_concrete_powder.name=Pink Concrete Powder	#
+tile.lime_concrete_powder.name=Lime Concrete Powder	#
+tile.yellow_concrete_powder.name=Yellow Concrete Powder	#
+tile.light_blue_concrete_powder.name=Light Blue Concrete Powder	#
+tile.magenta_concrete_powder.name=Magenta Concrete Powder	#
+tile.orange_concrete_powder.name=Orange Concrete Powder	#
+tile.white_concrete_powder.name=White Concrete Powder	#
+
+tile.white_stained_glass.name=White Stained Glass	#
+tile.light_gray_stained_glass.name=Light Grey Stained Glass	#
+tile.gray_stained_glass.name=Grey Stained Glass	#
+tile.black_stained_glass.name=Black Stained Glass	#
+tile.brown_stained_glass.name=Brown Stained Glass	#
+tile.red_stained_glass.name=Red Stained Glass	#
+tile.orange_stained_glass.name=Orange Stained Glass	#
+tile.yellow_stained_glass.name=Yellow Stained Glass	#
+tile.lime_stained_glass.name=Lime Stained Glass	#
+tile.green_stained_glass.name=Green Stained Glass	#
+tile.cyan_stained_glass.name=Cyan Stained Glass	#
+tile.light_blue_stained_glass.name=Light Blue Stained Glass	#
+tile.blue_stained_glass.name=Blue Stained Glass	#
+tile.purple_stained_glass.name=Purple Stained Glass	#
+tile.magenta_stained_glass.name=Magenta Stained Glass	#
+tile.pink_stained_glass.name=Pink Stained Glass	#
+
+tile.white_glazed_terracotta.name=White Glazed Terracotta	#
+tile.orange_glazed_terracotta.name=Orange Glazed Terracotta	#
+tile.magenta_glazed_terracotta.name=Magenta Glazed Terracotta	#
+tile.light_blue_glazed_terracotta.name=Light Blue Glazed Terracotta	#
+tile.yellow_glazed_terracotta.name=Yellow Glazed Terracotta	#
+tile.lime_glazed_terracotta.name=Lime Glazed Terracotta	#
+tile.pink_glazed_terracotta.name=Pink Glazed Terracotta	#
+tile.gray_glazed_terracotta.name=Grey Glazed Terracotta	#
+tile.silver_glazed_terracotta.name=Light Grey Glazed Terracotta	#
+tile.cyan_glazed_terracotta.name=Cyan Glazed Terracotta	#
+tile.purple_glazed_terracotta.name=Purple Glazed Terracotta	#
+tile.blue_glazed_terracotta.name=Blue Glazed Terracotta	#
+tile.brown_glazed_terracotta.name=Brown Glazed Terracotta	#
+tile.green_glazed_terracotta.name=Green Glazed Terracotta	#
+tile.red_glazed_terracotta.name=Red Glazed Terracotta	#
+tile.black_glazed_terracotta.name=Black Glazed Terracotta	#
+
+tile.stripped_oak_wood.name=Stripped Oak Wood	#
+tile.stripped_spruce_wood.name=Stripped Spruce Wood	#
+tile.stripped_birch_wood.name=Stripped Birch Wood	#
+tile.stripped_jungle_wood.name=Stripped Jungle Wood	#
+tile.stripped_acacia_wood.name=Stripped Acacia Wood	#
+tile.stripped_dark_oak_wood.name=Stripped Dark Oak Wood	#
+
+tile.black_terracotta.name=Black Terracotta	#
+tile.blue_terracotta.name=Blue Terracotta	#
+tile.brown_terracotta.name=Brown Terracotta	#
+tile.cyan_terracotta.name=Cyan Terracotta	#
+tile.gray_terracotta.name=Grey Terracotta	#
+tile.green_terracotta.name=Green Terracotta	#
+tile.light_blue_terracotta.name=Light Blue Terracotta	#
+tile.lime_terracotta.name=Lime Terracotta	#
+tile.magenta_terracotta.name=Magenta Terracotta	#
+tile.name_terracotta=Terracotta	#
+tile.orange_terracotta.name=Orange Terracotta	#
+tile.pink_terracotta.name=Pink Terracotta	#
+tile.purple_terracotta.name=Purple Terracotta	#
+tile.red_terracotta.name=Red Terracotta	#
+tile.light_gray_terracotta.name=Light Grey Terracotta	#
+tile.white_terracotta.name=White Terracotta	#
+tile.yellow_terracotta.name=Yellow Terracotta	#
+
+tile.sponge.name=Sponge	#
+
+tile.oak_wood.name=Oak Wood	#
+tile.spruce_wood.name=Spruce Wood	#
+tile.birch_wood.name=Birch Wood	#
+tile.jungle_wood.name=Jungle Wood	#
+tile.acacia_wood.name=Acacia Wood	#
+tile.dark_oak_wood.name=Dark Oak Wood	#
+
+tile.purpur_block.name=Purpur Block	#
+tile.prismarine.name=Prismarine	#
+
+tile.stone.name=Stone
+tile.grass_block.name=Grass Block
+
+tile.brown_mushroom_block.name=Mushroom
+
+tile.sea_lantern.name=Sea Lantern

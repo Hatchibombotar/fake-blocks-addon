@@ -1,19 +1,17 @@
-# Fake blocks addon
+# Fake Blocks Add-On
+Last release tested for version 1.20.70.
 
-## [Download](https://github.com/Hatchibombotar/fake-blocks-addon/releases/download/v1.0.0/fake_blocks.mcaddon)
+An add-on for Minecraft: Bedrock Edition that allows you to create pretend/camouflage blocks that you can walk, and fall through. With this add-on you can create secret bases, cool traps and creative builds.
 
-An addon for Minecraft: Bedrock Edition that allows you to create pretend blocks that you can walk through.
+![Fake Blocks Add-On Banner Image](./assets/banner.png)
 
-![Person climbing a chain](./.github/assets/image.png)
+To use it, first craft a fake block with the below recipe:
 
-_A secret base_
+![Recipe for the fake block](./assets/recipe.png)
 
-## Using the addon
-To use it combine any solid block with the empty fake block in the crafting grid.
+Now hold the block you want the fake block to look like and interact with the block. This only works with solid blocks.
 
-![Empty fake block crafting recipe](./.github/assets/recipe.png)
+Requires following experimental toggles:
+- Beta APIs
 
-_Empty fake block crafting recipe_
-
-## Addon Info
-This addon was created with [regolith](https://bedrock-oss.github.io/regolith/). The blocks are automaticly generated with a script.
+[Download](https://github.com/Hatchibombotar/fake-blocks-addon/releases/download/latest-build/fake-blocks.addon)

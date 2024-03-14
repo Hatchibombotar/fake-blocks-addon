@@ -1,45 +1,105 @@
 {
-  "name": "fake_blocks",
-  "author": "Hatchibombotar",
-  "packs": {
-    "behaviorPack": "./packs/BP",
-    "resourcePack": "./packs/RP"
-  },
-  "regolith": {
-    "profiles": {
-      "dev": {
-        "unsafe": false,
-        "filters": [
-          {
-            "runWith": "nodejs",
-            "script": "./local_filters/block_gen/index.js",
-            "name": "block_gen"
-          },
-          { "url": "github.com/Hatchibombotar/useful-regolith-filters//templater" },
-          { "url": "github.com/Hatchibombotar/useful-regolith-filters//link_manifests" }
-        ],
-        "export": {
-          "target": "development"
-        },
-        "dataPath": "./packs/data"
-      },
-      "build": {
-        "unsafe": false,
-        "filters": [
-          {
-            "runWith": "nodejs",
-            "script": "./local_filters/block_gen/index.js",
-            "name": "block_gen"
-          },
-          { "url": "github.com/Hatchibombotar/useful-regolith-filters//templater" },
-          { "url": "github.com/cda94581/regolith-filters/export" },
-          { "url": "github.com/Hatchibombotar/useful-regolith-filters//link_manifests" }
-        ],
-        "export": {
-          "target": "local"
-        },
-        "dataPath": "./packs/data"
-      }
-    }
-  }
+	"author": "Hatchibombotar",
+	"name": "Fake Blocks",
+	"packs": {
+		"behaviorPack": "./packs/BP",
+		"resourcePack": "./packs/RP"
+	},
+	"regolith": {
+		"dataPath": "./packs/data",
+		"filterDefinitions": {
+			"gametests": {
+				"url": "github.com/Bedrock-OSS/regolith-filters",
+				"version": "1.5.3"
+			},
+			"import": {
+				"url": "github.com/Hatchibombotar/useful-regolith-filters",
+				"version": "latest"
+			},
+			"metadata": {
+				"url": "github.com/Hatchibombotar/useful-regolith-filters",
+				"version": "latest"
+			},
+			"package": {
+				"url": "github.com/Hatchibombotar/useful-regolith-filters",
+				"version": "1.1.0"
+			},
+			"block_gen": {
+				"runWith": "nodejs",
+				"script": "./packs/filters/create_blocks.js"
+			}
+		},
+		"profiles": {
+			"build": {
+				"export": {
+					"readOnly": false,
+					"target": "local"
+				},
+				"filters": [
+					{
+						"profile": "default"
+					},
+					{
+						"filter": "package",
+						"settings": {
+							"file_name": "build/fake_blocks",
+							"package": {
+								"mcaddon": {}
+							}
+						}
+					}
+				]
+			},
+			"default": {
+				"export": {
+					"readOnly": false,
+					"target": "development"
+				},
+				"filters": [
+					{
+						"filter": "block_gen"
+					},
+					{
+						"filter": "gametests",
+						"settings": {
+							"buildOptions": {
+								"bundle": true,
+								"entryPoints": [
+									"BP/scripts/main.ts"
+								],
+								"format": "esm",
+								"minify": false,
+								"target": "es2020"
+							},
+							"moduleUUID": "aad5a60c-b39e-43f7-844c-3bf5951d27b0",
+							"modules": [
+								"@minecraft/server@1.10.0-beta"
+							]
+						}
+					},
+					{
+						"filter": "import",
+						"settings": {
+							"imports": [
+								{
+									"from": "assets/pack_icon.png",
+									"to": "BP/pack_icon.png"
+								},
+								{
+									"from": "assets/pack_icon.png",
+									"to": "RP/pack_icon.png"
+								}
+							]
+						}
+					},
+					{
+						"filter": "metadata",
+						"settings": {
+							"url": "https://github.com/Hatchibombotar/fake-blocks-addon"
+						}
+					}
+				]
+			}
+		}
+	}
 }
