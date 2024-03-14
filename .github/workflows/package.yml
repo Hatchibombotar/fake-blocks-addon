@@ -18,6 +18,6 @@ jobs:
               uses: softprops/action-gh-release@v1
               with:
                 files: |
-                  build/fake-blocks.mcaddon
+                  build/fake_blocks.mcaddon
                   readme.md
                   licence.md
