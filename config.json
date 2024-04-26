@@ -73,7 +73,7 @@
 							},
 							"moduleUUID": "aad5a60c-b39e-43f7-844c-3bf5951d27b0",
 							"modules": [
-								"@minecraft/server@1.10.0-beta"
+								"@minecraft/server@1.10.0"
 							]
 						}
 					},

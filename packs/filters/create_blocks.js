@@ -1,6 +1,7 @@
 const fs = require("fs")
 
 const blocks = fs.readFileSync("data/vanilla_solids.txt").toString().split(/\r\n|\n\r|\n|\r/)
+const lang_base = Object.fromEntries(fs.readFileSync("data/base.lang").toString().split(/\r\n|\n\r|\n|\r/).map(x => x.split("=")))
 const lang_vanilla = Object.fromEntries(fs.readFileSync("data/vanilla.lang").toString().split(/\r\n|\n\r|\n|\r/).map(x => x.split("=")))
 const lang_ext = Object.fromEntries(fs.readFileSync("data/extended.lang").toString().split(/\r\n|\n\r|\n|\r/).map(x => x.split("=")))
 const lang = {...lang_vanilla, ...lang_ext}
@@ -8,7 +9,7 @@ const lang = {...lang_vanilla, ...lang_ext}
 const vanillaBlocksJson = JSON.parse(fs.readFileSync("data/vanilla_blocks.json"))
 const newBlocksJson = {}
 let newlang = {
-    "tile.hatchi:fake_block.name": "Fake Block Template"
+    ...lang_base
 }
 for (const block of blocks) {
     const file = {

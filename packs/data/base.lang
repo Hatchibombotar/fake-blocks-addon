@@ -1,0 +1,2 @@
+tile.hatchi:fake_block.name=Fake Block Template
+custom.hatchi.fake_blocks.block_not_supported=This block is not supported. Try Using something else?

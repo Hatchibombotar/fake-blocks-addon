@@ -14,7 +14,7 @@ function sendError(player: Player, message: RawMessage[]) {
 }
 
 world.beforeEvents.itemUseOn.subscribe((e) => {
-    if (e.block.typeId != "hatchi:fake_block") {
+    if (!e.block.hasTag("hatchi:fake_block_template")) {
         return
     }
 
