@@ -1,4 +1,4 @@
-import { BlockPermutation, Player, RawMessage, system, world } from "@minecraft/server"
+import { BlockPermutation, EntityComponent, EntityComponentTypes, EntityInventoryComponent, Player, RawMessage, system, world } from "@minecraft/server"
 import allowed_blocks from "./info"
 
 function sendError(player: Player, message: RawMessage[]) {
@@ -15,6 +15,23 @@ function sendError(player: Player, message: RawMessage[]) {
 
 world.beforeEvents.itemUseOn.subscribe((e) => {
     if (!e.block.hasTag("hatchi:fake_block_template")) {
+        return
+    }
+
+    if (e.source.isSneaking) {
+        return
+    }
+
+    if (e.itemStack.typeId == "hatchi:fake_block") {
+        return
+    }
+
+    if (e.itemStack.typeId == "minecraft:shears") {
+        system.run(() => {
+            e.block.setPermutation(
+                BlockPermutation.resolve(`hatchi:fake_block`)
+            )
+        })
         return
     }
 
@@ -36,9 +53,9 @@ world.beforeEvents.itemUseOn.subscribe((e) => {
         return
     }
     system.run(() => {
-        const permutation = BlockPermutation.resolve(`hatchi:fake_${held_block_id}`)
-
-        e.block.setPermutation(permutation)
+        e.block.setPermutation(
+            BlockPermutation.resolve(`hatchi:fake_${held_block_id}`)
+        )
     })
     e.cancel = true
 

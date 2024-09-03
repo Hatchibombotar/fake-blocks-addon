@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@minecraft/server": "^1.10.0"
+    "@minecraft/server": "^1.13.0"
   },
   "name": "fake-blocks-addon",
   "description": "Have you ever gone out on an adventure only to die and have all your stuff despawn? Want to keep the adventure in Minecraft without the danger of losing your prized possessions? In this add-on all your items are put in a gravestone when you die and you can go back and grab your stuff from your death location.",

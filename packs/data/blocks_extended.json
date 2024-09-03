@@ -1,0 +1,27 @@
+{
+   "sea_lantern": {
+      "sound" : "glass",
+      "textures" : "sea_lantern"
+   },
+   "grass_block" : {
+      "carried_textures" : {
+         "down" : "grass_carried_bottom",
+         "side" : "grass_carried",
+         "up" : "grass_carried_top"
+      },
+      "isotropic" : {
+         "down" : true,
+         "up" : true
+      },
+      "sound" : "grass",
+      "textures" : {
+         "down" : "grass_carried_bottom",
+         "side" : "grass_carried",
+         "up" : "grass_carried_top"
+      }
+   },
+   "oak_planks" : {
+      "sound" : "wood",
+      "textures" : "planks"
+   }
+}

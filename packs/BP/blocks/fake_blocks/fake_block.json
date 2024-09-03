@@ -10,15 +10,15 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "render_method": "alpha_test",
+                    "render_method": "blend",
                     "texture": "fake_block"
                 }
             },
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:collision_box": false,
+            "minecraft:loot": "loot_tables/blocks/fake_blocks.json",
             "tag:hatchi:fake_block_template": {}
         },
-        "permutations": [
-        ]
+        "permutations": []
     }
 }

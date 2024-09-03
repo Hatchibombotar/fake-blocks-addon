@@ -5,10 +5,10 @@
         "description": "By Hatchibombotar",
         "uuid": "c3da4fff-efc0-452f-be9d-e2062c4cb4f6",
         "version": [
-            2, 0, 3
+            2, 1, 0
         ],
         "min_engine_version": [
-            1, 20, 80
+            1, 21, 20
         ]
     },
     "modules": [
@@ -16,14 +16,14 @@
             "type": "data",
             "uuid": "9e98aae3-0417-4d0f-a85b-974490ebd904",
             "version": [
-                2, 0, 3
+                2, 1, 0
             ]
         }
     ],
     "dependencies": [
         {
             "uuid": "f472d760-aa7d-4574-bca8-1e2f5fbdd1e0",
-            "version": [2, 0, 3]
+            "version": [2, 1, 0]
         }
     ]
 }
